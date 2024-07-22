@@ -27,10 +27,18 @@ namespace NestedObjects
         public string SchoolEmail { get; set; }
 
         /// <summary>
-        /// Phone Number
+        /// The Date of Birth
+        /// </summary>
+        public DateOnly DateOfBirth { get; set; }
+
+        /// <summary>
+        /// Preferred Phone Number
         /// </summary>
         public string PhoneNumber { get; set; }
 
+        /// <summary>
+        /// Advisor assigned to student
+        /// </summary>
         public Advisor AssignedAdvisor { get; set; }
     }
 }
